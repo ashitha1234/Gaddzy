@@ -4,345 +4,23 @@
        
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width , initial-scale=1">
+        <link rel="stylesheet" href="style.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
         <title>Demo</title>
-        <style>
-          .nav{
-            background-color: #690087;
-             height:auto; 
-          }
-
-          .navbar-brand{
-            margin-left:80px; 
-            font-family: 'Times New Roman', Times, serif; 
-            font-size: 25px;
-            
-          }
-          .collapse{
-            justify-content:end; 
-            margin-right: 20px;
-          }
-
-          .offcanvas-title{
-            color:#690087; 
-            font-family: 'Times New Roman', Times, serif;
-          }
-
-
-          .row{
-           padding: 10px;
-           justify-content: center;
-          }
-
-           .card{
-            max-width: 400px; 
-            margin-right:10px; 
-            box-shadow: 5px 5px 10px rgba(0,0,0,0.5)
-          }
-
-          .card-text{
-              color:chocolate;
-              
-          }
-
-          .tsb{
-            background-color: #690087;
-            height:306px
-          }
-
-          .brands{
-            color: white;
-             font-size:32px; 
-             padding-top: 20px; 
-             font-weight: 600;
-
-          }
-
-            swiper-container {
-            width: 100%;
-            height: 100%;
-            }
-/* (top selling brands) */
-          swiper-slide {
-            text-align: center;
-            font-size: 18px;
-            background: white;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border-radius: 10px;
-            width: 100px;
-          }
-          
-/* (best seller) */
-          swiper-slide img {
-            display: block;
-            width: 90%;
-            height: 200%;
-            object-fit: cover; 
-
-          }
- /* (top selling brands) */
-          swiper-container {
-            justify-content: center;
-            margin-bottom: 50px;
-            margin-right: auto;
-            margin-left: auto;
-            
-          }
-            .mySwiper{
-                  height:fit-content;
-              }
-              .bestsellers{
-                  margin-left: 50px;
-                  font-size: xx-large;
-              }
-              swiper-slide img {
-                display: block;
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-
-              }
-              .phones .box-card {
-              width: 200px;        
-              height: 200px; 
-              border: 1px solid #ddd;
-              background: #fff;
-              max-width: 200px;    
-          }
-              .brand .box-card img {
-              width: 100%;
-              border-radius: 5px;
-              object-fit:contain;
-            
-          }
-          .brand .box-card {
-              width: 200px;        
-              height: 150px; 
-              background: #ffffff;
-              border: 1px solid white;
-              border-radius: 10px;
-   
-          }
-          @media (max-width: 576px) {
-            .box-card {
-              max-width: 130px;
-            }
-            .brand .box-card {
-              max-width: 110px;
-            }
-            .phones .box-card {
-              max-width: 180px;
-            }
-          }
-            .card-body1{
-                background-color: #e8d9ec;
-                height: 200px;
-                border-radius: 5px;
-                box-shadow: 5px 5px 10px rgba(0,0,0,0.5)
-            }
-            .card-title1{
-              color: #690087;
-              font-weight: 600;
-                }
-
-            .card-title2{
-              font-size: 35px; 
-              font-weight: 600;
-
-            }
-
-            .card-body1 .img{
-              height: 70px
-            }
-
-            p{
-              font-weight: 800px;
-            }
-
- /* .flow p{
-  color:#690087; 
-  text-align: center; 
-  font-weight: 700;
-
- } */
-            .review p{
-                font-size: 12; 
-                font-family:'Times New Roman', Times, serif;
-            }
-            @media (max-width: 576px) {
-              .ser {
-                max-width: 130px;
-              }}
-
-            .review .box-card4{
-              font-size: 19px;
-              border: 1px solid #ddd;
-              border-radius: 10px;
-              width: 400px;
-              height: 206px;
-              margin-bottom: 0px;
-              height:195px; 
-              width: 360px; 
-              box-shadow: 2px 2px rgba(62, 62, 62, 0.3);
-              gap: 0px;
-            }
-            .review .box-text1{
-              height: 10px;
-              width: 200px;
-            }
-            .review .stars{
-              justify-content: center;
-            }
-            .rev .star{
-              color:#690087;
-              font-size:x-large;
-            }
-
-            .footer{
-              background-color: #690087; 
-              height:auto"
-            }
-
-            .logo .p{
-              color: #ffffff; 
-              font-size: 50px; 
-              margin-top: 19px; 
-              font-family: Georgia, 'Times New Roman', Times, serif;
-            }
-
-            .footer p{
-              color: #ffffff; 
-              font-weight: 700; 
-              font-size: 18px;
-            }
-            .details p{
-              color: #ffffff; 
-              font-weight: 500; 
-              font-size: 18px;
-
-            }
-            .p1{
-              color:#690087; 
-              text-align: center; 
-              font-weight: 700;
-            }
-            .p2{
-                color:#000000; 
-                text-align: center; 
-                font-weight: 700; 
-                font-size: 38px;
-            }
-
-            .flow .rows{
-                text-align: center; 
-                display: flex; 
-                flex-direction: row;
-                overflow-x: scroll;
-            }
-            .flow .col{
-              justify-content: center; 
-              align-items: center; 
-              display: flex; 
-              flex-direction: column; 
-            }
-            .card-body2{
-                background-color: #e8d9ec;
-                height: 140px;
-                width: 150px;
-                border-radius: 120px;
-                margin-top: 32px;
-                display: flex;
-                align-items: center;         
-                justify-content: center; 
-            }
-            .card-body2 .img{
-              height: 70px;
-            }
-
-            .p4{
-              font-weight: 700; 
-              font-size:20px; 
-              padding-top: 10px; 
-              margin-top: 20px;
-            }
-            .footer1{
-              color: #fff;
-              font-size: 18px; 
-              text-align: center; 
-              margin-bottom: 0px;
-            }
-
-            .card3{
-              border:#fff" 
-            }
-            @media (max-width: 576px) {
-              .box-card1 {
-                max-width: 300px;
-              }
-              .brand .box-card1 {
-                max-width: 200px;
-              }
-            }
-              @media (max-width: 576px) {
-              .box-card4 {
-                max-width: 300px;
-              }
-              .rev .box-card4 {
-                max-width: 350px;
-              }
-            }
-
-            @media (max-width: 992px) {
-              .box-card4 {
-                max-width: 300px;
-              }
-              .rev .box-card4 {
-                max-width: 310px;
-              }
-            }
-
-
-            #myBtn {
-              display: none;
-              position: fixed;
-              bottom: 20px;
-              right: 30px;
-              z-index: 99;
-              font-size: 18px;
-              border: none;
-              outline: none;
-              background-color: rgb(0, 0, 0);
-              color: white;
-              cursor: pointer;
-              padding: 15px;
-              border-radius: 4px;
-              height: 50px;
-              width: 50px;
-            
-            }
-
-            #myBtn:hover {
-              background-color: #858585;
-
-              
-            }
-
-
-    </style>
+       
     </head>
     <body>
-      <button onclick="topFunction()" id="myBtn" title="Go to top"  style="font-size:20px;">&#8963;</button>
 <!--Navigation-->
  <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="nav container-fluid  py-4">
     <h3 class="navbar-brand text-white">GADDZY </h3>
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu">
-      <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon "></span>
     </button>
-    <div class="collapse navbar-collapse d-lg-flex " >
+    <div class="collapse navbar-collapse d-lg-flex " >  
       <ul class="navbar-nav">
         <li class="nav-item ">
           <a class="nav-link active text-white" href="boot_prc.html" >Home</a></li>
@@ -384,70 +62,77 @@
 <!--Navigation-->
 
 <!--Cards-->
-<div class="container">
-  <div class="row">
-    <div class="card"> 
-  <div class="row g-0">
-    <div class="col-12 col-md-4 col-lg-4 col-xl-4">
-         <img src="phone.jpg" class="img-fluid rounded-start" alt="Smart phone">
+<div class="top container pt-4">
+    <div class="row d-flex">
+    <div class= "col-12 col-md-6 col-lg-4 col-xl-4 "> 
+      <div class="card">
+  <div class="category d-flex">
+    <img src="phone.jpg" alt="...">
+  <div class="flex">
+    <p class="items pt-2">Mobile Phones</p>
+    <p class="p1">Sell Now
+    <i class="fa-solid fa-arrow-right"></i></p>
     </div>
-    <div class="col-12 col-md-4 col-lg-4 col-xl-4">
-      <div class="card-body">
-         <h5 class="card-title">Mobile Phone</h5>
-        <p class="card-text" >Sell Now &#8594;</p>
-    </div>
-    </div>
-    </div>
-    </div>
-    <div class="card">
-  <div class="row g-0">
-    <div class="col-12 col-md-4 col-lg-4 col-xl-4">
-         <img src="tablets.jpg" class="img-fluid rounded-start" alt="">
-    </div>
-    <div class="col-12 col-md-4 col-lg-4 col-xl-4">
-      <div class="card-body">
-         <h5 class="card-title">Tablets</h5>
-        <p class="card-text" >Sell Now &#8594;</p>
-    </div>
-    </div>
-    </div>
-    </div>
-    <div class="card" >
-  <div class="row g-0">
-    <div class="col-12 col-md-4 col-lg-4 col-xl-4">
-         <img src="smart_w.jpg" class="img-fluid rounded-start" alt="...">
-    </div>
-    <div class="col-12  col-md-4 col-lg-4 col-xl-4">
-      <div class="card-body">
-         <h5 class="card-title">Smart Watches</h5>
-        <p class="card-text" >Sell Now &#8594;</p>
-    </div>
-    </div>
-    </div>
-    </div>
-    </div>
-    </div>
+  </div>
+</div>
+</div>
+ <div class="col-12 col-md-6 col-lg-4 col-xl-4"> 
+  <div class="card">
+  <div class="category d-flex">
+  <div class="flex">
+    <img src="tablets.jpg" alt="...">
+  </div>
+  <div class="flex">
+    <p class="items pt-2">Mobile Phones</p>
+    <p class="p1">Sell Now
+    <i class="fa-solid fa-arrow-right"></i></p>
+  </div>
+  </div>
+</div>
+</div>
+
+ <div class="col-12 col-md-6 col-lg-4 col-xl-4"> 
+  <div class="card">
+  <div class="category d-flex">
+  <div class="flex">
+    <img src="smart_w.jpg" alt="...">
+  </div>
+  <div class="flex">
+    <p class="items pt-2">Mobile Phones</p>
+   <p class="p1">Sell Now
+    <i class="fa-solid fa-arrow-right"></i></p>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
     
 <!--Cards-->
 
 <!--Slider-->
-<div class="container">
-<div class="slider">
-    <div class="bestsellers">BEST SELLERS</div> 
-    <div class="slide-container my-5"  >
-    <swiper-container class="mySwiper" navigation="true" space-between="25"
-    loop="true" slides-per-view="5" autoplay-delay="2500" autoplay-disable-on-interaction="false" breakpoints='{
-  "0": { "slidesPerView": 2, "spaceBetween": 10 },
-  "480": { "slidesPerView": 3, "spaceBetween": 12 },
-  "768": { "slidesPerView": 3, "spaceBetween": 16  },
-  "992": { "slidesPerView": 5, "spaceBetween": 20 }
+<div class="sellers pt-5">
+<div class="slider container-fluid">
+    <div class="bestsellers">
+      <p>Best Sellers</p>
+      </div> 
+      <div class="slides">
+    <div class="slide-container my-4"  >
+    <swiper-container class="Bestsellerswiper" navigation="true"  space-between="20"
+    loop="true" slides-per-view="5" autoplay-delay="25000000" autoplay-disable-on-interaction="false" breakpoints='{
+  "0": {"slidesPerView":1,"spaceBetween": 10 },
+  "576": { "slidesPerView": 2, "spaceBetween": 10 },
+  "768": { "slidesPerView": 3, "spaceBetween": 15 },
+  "992": { "slidesPerView": 4, "spaceBetween": 10 },
+  "1200": { "slidesPerView": 5, "spaceBetween": 10 }
     }'>
     <swiper-slide>
         <div class="phones">
         <div class="box-card">
-        <img src="phone.jpg"  />
+        <img src="phone.jpg" />
         </div>
-        <p class="text_align_center text-dark">Iphone</p>
+        <p class="name text-center text-dark">Iphone</p>
         </div>
     </swiper-slide>
     <swiper-slide>
@@ -455,7 +140,7 @@
         <div class="box-card">
         <img src="sam.jpg" />
         </div>
-        <p class="text_align_center text-dark">Oppo</p>
+        <p class="name text-center text-dark">Oppo</p>
         </div>
     </swiper-slide>
     <swiper-slide>
@@ -463,7 +148,7 @@
         <div class="box-card">
         <img src="iphone.jpg" />
         </div>
-        <p class="text_align_center text-dark">Iphone 16</p>
+        <p class="name text-center text-dark">Iphone 16</p>
         </div>
     </swiper-slide>
     <swiper-slide>
@@ -471,7 +156,7 @@
         <div class="box-card">
         <img src="https://www.ourfriday.co.uk/image/cache/catalog/Google/google-pixel-9-product-remove-background-800x800.png"  />
         </div>
-        <p class="text_align_center text-dark">Google pixel</p>
+        <p class="name text-center text-dark">Google pixel</p>
         </div>
     </swiper-slide>
     <swiper-slide>
@@ -479,7 +164,7 @@
         <div class="box-card">
         <img src="https://www.gizmochina.com/wp-content/uploads/2019/03/Oppo-Reno-500x500.jpg?x70461" />
         </div>
-        <p class="text_align_center text-dark">Reno 12</p>
+        <p class="name text-center text-dark">Reno 12</p>
         </div>
     </swiper-slide>
     <swiper-slide>
@@ -487,7 +172,7 @@
         <div class="box-card">
         <img src="https://gourban.in/cdn/shop/files/Beige.png?v=1749553994&width=1000" class="img-fluid "/>
         </div>
-        <p class="text_align_center text-dark">Smart Watches</p>
+        <p class="name text-center  text-dark">Smart Watches</p>
         </div>
     </swiper-slide>
     <swiper-slide>
@@ -495,7 +180,7 @@
         <div class="box-card">
         <img src="https://www.jiomart.com/images/product/original/492849325/fitbit-charge-5-smart-watch-black-graphite-digital-o492849325-p591223244-0-202511251152.jpeg?im=Resize=(420,420)" class="img-fluid" />
         </div>
-        <p class="text_align_center text-dark">Fitbit</p>
+        <p class="name text-center text-dark">Fitbit</p>
         </div>
     </swiper-slide>
     <swiper-slide>
@@ -503,7 +188,7 @@
         <div class="box-card">
         <img src="https://www.ourfriday.co.uk/image/cache/catalog/Google/google-pixel-9-product-remove-background-800x800.png"  />
         </div>
-        <p class="text_align_center text-dark">Google Pixel</p>
+        <p class="name text-center text-dark">Google Pixel</p>
         </div>
     </swiper-slide>
     <swiper-slide>
@@ -511,7 +196,7 @@
         <div class="box-card">
         <img src="https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/plp-x/tablets-v5/0515-2025-huawei-innovative-product-launch/matepad-pro-series/huawei-matepad-pro-12-2.jpg" class="img-fluid"  />
         </div>
-        <p class="text_align_center text-dark">Tablet</p>
+        <p class="name text-center text-dark">Tablet</p>
         </div>
     </swiper-slide>
     <swiper-slide>
@@ -519,18 +204,19 @@
         <div class="box-card">
         <img src="phone.jpg" />
         </div>
-        <p class="text_align_center text-dark">Iphone</p>
+         <p class="name text-center text-dark">Iphone</p>
         </div>
     </swiper-slide>
     <swiper-slide>
         <div class="phones">
         <div class="box-card">
         <img src="sam.jpg"  />
+        <p class="name text-center text-dark">Samsung Galaxzy</p>
         </div>
-        <p class="text_align_center text-dark">Samsung Galaxzy</p>
         </div>
     </swiper-slide>
-  </swiper-container>
+  </swiper-container> 
+  </div>
   </div>
 </div>
 </div>
@@ -541,14 +227,14 @@
     <div class="brands">Top Selling Brands</div>
     <div class="slide-container my-5" style="justify-content: center;" >
     <swiper-container class="mySwiper" navigation="true" space-between="30"
-    loop="true" slides-per-view="5" autoplay-delay="25000000" autoplay-disable-on-interaction="false" breakpoints='{
-  "0": { "slidesPerView": 2, "spaceBetween": 10 },
-  "576": { "slidesPerView": 3, "spaceBetween": 12 },
-  "768": { "slidesPerView": 3, "spaceBetween": 16 },
-  "992": { "slidesPerView": 4, "spaceBetween": 20 }
+    loop="true" slides-per-view="1" autoplay-delay="25000000" autoplay-disable-on-interaction="false" breakpoints='{
+ "576": { "slidesPerView": 2, "spaceBetween": 10 },
+  "768": { "slidesPerView": 3, "spaceBetween": 15 },
+  "992": { "slidesPerView": 4, "spaceBetween": 10 },
+  "1200": { "slidesPerView": 5, "spaceBetween": 10 }
     }'>
     <swiper-slide>
-        <div class="brand">
+        <div class="brand ">
             <div class="box-card">
         <img src="https://www.cnet.com/a/img/hub/2015/09/01/c0718ba2-66ba-4a16-987d-c4fe2a3c6a57/google-nuevo-logo-septiembre-2015.png" />
         </div>
@@ -627,65 +313,66 @@
   </swiper-container>
   </div>
   </div>
+  
 
   <!--Why us-->
   <div class="container my-5" >
     <div class="row">
-        <div class="col-12 col-md-12 col-lg-4 col-xl-4 " >
-            <div class="card1" style="border:#fff">
+        <div class="col-12 col-md-12 col-lg-4 col-xl-4 mb-3 mt-3 " >
+            <div class="why-uscard" style="border:#fff">
             <div class="card-body">
-         <h5 class="card-title1">Why us</h5>
-        <p class="card-text1" style="font-weight: 600; font-size: 36px;">Selling Old Phones made Hassle-Free </p>
+         <h5 class="why-us card-title">Why us</h5>
+        <p class="why-us card-text" style="font-weight: 600; font-size: 36px;">Selling Old Phones made Hassle-Free </p>
     </div>
         </div>
         </div>
         <div class="col-12 col-md-12 col-lg-4 col-xl-4 mb-3 mt-3">
-            <div class="card2">
-            <div class="card-body1">
-              <div class="d-flex justify-content-start ">
-                <img class="img "src="https://png.pngtree.com/png-clipart/20221019/original/pngtree-editable-text-banner-best-price-promo-label-transparent-background-png-image_8703356.png" >
-         <h5 class="card-title2 "> Best Prices Guaranteed  </h5></div>
-        <p class="card-text2 p-3 ">Get the best price for your old devices, ensuring maximum value for your trade-in, backed by fair and transparent evaluations. </p>
+            <div class="box-card">
+            <div class="para">
+              <div class="header d-flex justify-content-start">
+                <img class="img p-1"src="https://png.pngtree.com/png-clipart/20221019/original/pngtree-editable-text-banner-best-price-promo-label-transparent-background-png-image_8703356.png" >
+         <h5 class="text card-title"> Best Prices Guaranteed  </h5></div>
+        <p class="body card-text text-dark px-3 ">Get the best price for your old devices, ensuring maximum value for your trade-in, backed by fair and transparent evaluations. </p>
     </div>
     </div>
         </div>
         <div class="col-12 col-md-12 col-lg-4 col-xl-4 mb-3 mt-3">
-            <div class="card2">
-            <div class="card-body1">
-              <div class="d-flex justify-content-start ">
-                <img class="img"src="https://static.thenounproject.com/png/3856025-200.png" >
-         <h5 class="card-title2 p-2"> Instant Payment  </h5></div>
-        <p class="card-text2 pt-3 px-3">Receive instant payment in your preferred mode, whether at pickup or during a store drop-off, for a seamless selling experience.</p>
+            <div class="grid-card">
+            <div class="para">
+              <div class="header d-flex justify-content-start ">
+                <img class="img p-1"src="https://static.thenounproject.com/png/3856025-200.png" >
+         <h5 class="text card-title p-2"> Instant Payment  </h5></div>
+        <p class="body card-text text-dark pt-3 px-3">Receive instant payment in your preferred mode, whether at pickup or during a store drop-off, for a seamless selling experience.</p>
     </div>
         </div>
         </div>
-        <div class="col-12 col-md-12 col-lg-4 col-xl-4 mb-3" >
-            <div class="card2">
-            <div class="card-body1">
-              <div class="d-flex justify-content-start ">
+        <div class="col-12 col-md-12 col-lg-4 col-xl-4 mb-3 mt-3" >
+            <div class="grid-card">
+            <div class="para">
+              <div class="header d-flex justify-content-start ">
                 <img class="img p-1"src="https://cdn-icons-png.flaticon.com/512/14669/14669045.png" >
-         <h5 class="card-title2 p-2"> Simple & Convenient  </h5></div>
-        <p class="card-text2 px-3 pt-3" >Check your device's price, schedule a convenient pickup, and get paid instantly—it's that simple.</p>
+         <h5 class="text card-title p-2"> Simple & Convenient  </h5></div>
+        <p class="body card-text text-dark px-3 " >Check your device's price, schedule a convenient pickup, and get paid instantly—it's that simple.</p>
     </div>
         </div>
         </div>
-        <div class="col-12 col-md-12 col-lg-4 col-xl-4 mb-3">
-            <div class="card2">
-            <div class="card-body1">
-              <div class="d-flex justify-content-start ">
+        <div class="col-12 col-md-12 col-lg-4 col-xl-4 mb-3 mt-3">
+            <div class="grid-card">
+            <div class="para">
+              <div class="header d-flex justify-content-start ">
                 <img class="img p-1"src="https://cdn-icons-png.flaticon.com/512/123/123919.png"  >
-         <h5 class="card-title2 p-2"> Free Doorstep Pickup  </h5></div>
-        <p class="card-text2 px-3" >Enjoy free pickup services in over 1500 cities across India, making selling your device effortless and cost-free.</p>
+         <h5 class="text card-title p-2"> Free Doorstep Pickup  </h5></div>
+        <p class="body card-text text-dark px-3" >Enjoy free pickup services in over 1500 cities across India, making selling your device effortless and cost-free.</p>
     </div>
         </div>
         </div>
-        <div class="col-12 col-md-12 col-lg-4 col-xl-4 mb-3">
-            <div class="card2">
-            <div class="card-body1">
-              <div class="d-flex justify-content-start ">
+        <div class="col-12 col-md-12 col-lg-4 col-xl-4 mb-3 mt-3">
+            <div class="grid-card">
+            <div class="para">
+              <div class="header d-flex justify-content-start ">
                 <img class="img p-1"src="https://cdn-icons-png.freepik.com/256/3566/3566922.png?semt=ais_white_label" >
-         <h5 class="card-title2 p-2"> Valid Purchase Invoice  </h5></div>
-        <p class="card-text2 px-3" >Each transaction comes with a genuine bill of sale, providing proof of purchase and security for both parties involved. </p>
+         <h5 class="text card-title p-2"> Valid Purchase Invoice  </h5></div>
+        <p class="body card-text text-dark px-3" >Each transaction comes with a genuine bill of sale, providing proof of purchase and security for both parties involved. </p>
     </div>
         </div>
         </div>
@@ -696,14 +383,14 @@
     <!--How we work-->
   
     <div class=" flow container">
-      <p class="p1 font_12">HOW WE WORK?</p>
+      <p class="p3 font_12">HOW WE WORK?</p>
       <p class="p2">Simplifying Selling, Maximizing Value</p>
        
       <div class=" col-12 col-lg-12 col-md-12 mt-3">
         <div class="rows">
         <div class="col">
           <div class="card3" >
-            <div class="card-body2">
+            <div class="icon card-body">
             <img class="img" src="https://cdn-icons-png.freepik.com/256/1150/1150643.png"  >
             </div>
             </div>
@@ -717,7 +404,7 @@
 
        <div class="col">
          <div class="card3">
-            <div class="card-body2">
+            <div class="icon card-body">
             <img class="img" src="https://cdn-icons-png.flaticon.com/512/3659/3659954.png">
             </div>
             </div>
@@ -730,7 +417,7 @@
 
         <div class="col">
           <div class="card3">
-            <div class="card-body2">          
+            <div class="icon card-body">          
             <img class="img" src="https://cdn-icons-png.flaticon.com/512/4404/4404851.png" >           
             </div>
             </div>
@@ -742,7 +429,7 @@
           </div>
         <div class="col">
           <div class="card3">
-            <div class="card-body2">
+            <div class="icon card-body">
             <img class="img" src="https://cdn.pixabay.com/photo/2020/04/10/13/23/paid-5025785_1280.png">
             </div>
             </div>
@@ -754,148 +441,155 @@
         </div>
   <!--how we work-->
     
-  <div class="container">
+  <div class="pic container">
     <div class="col-12 col-md-12 col-lg-12 col-xl-12">
     <div class="img">
-    <img src="https://img.freepik.com/premium-photo/dynamic-promotional-graphic-flash-sale-electronics_606187-24060.jpg?semt=ais_se_enriched&w=740&q=80" class="img-fluid" style="width: 1300px; height: 350px; justify-content: center; border-radius: 15px; margin-top: 50px;" >
+    <img src="https://live.staticflickr.com/65535/50318961647_b5ed64e499_b.jpg" class="img-fluid" style="width: 1300px; height: 500px; justify-content: center; border-radius: 15px; margin-top: 50px;" >
       </div>
     </div>
   </div>
 
   <!--Review-->
-  <div class="rev container-fluid p-4" >
+  <div class="reviews container-fluid p-5" >
     <div class="slide-container" >
-    <swiper-container class="mySwiper2" navigation="true" space-between="30"
+      <div class="boxes">
+    <swiper-container class="reviewSwiper" navigation="true" space-between="30"
     loop="true" slides-per-view="5" autoplay-delay="25000000" autoplay-disable-on-interaction="false" breakpoints='{
-  "0": { "slidesPerView": 1, "spaceBetween": 10 },
+  "0": {"slidesPerView":1,"spaceBetween":20 },
   "576": { "slidesPerView": 2, "spaceBetween": 10 },
   "768": { "slidesPerView": 2, "spaceBetween": 15 },
-  "992": { "slidesPerView": 3, "spaceBetween": 10 }
+  "992": { "slidesPerView": 2, "spaceBetween": 10 },
+  "1200": { "slidesPerView": 3, "spaceBetween": 10 }
     }'>
     <swiper-slide>
         <div class="review">
-            <div class="box-card4"  >
+            <div class="review-card box-card"  >
         <p class="card-text1 p-2 mb-0" >Sold my old phone with ease, and the process was super smooth. Got a great price, quick pickup, and fast payment!</p>
-        <div class="stars mb-1 mt-0 d-flex flex-row">
-          <div class="star">&#9733;</div>
-          <div class="star">&#9733;</div>
-          <div class="star">&#9733;</div>
-          <div class="star">&#9733;</div>
-          <div class="star">&#9733;</div>
+        <div class="stars mb-1 mt-0 d-flex flex-row gap-2">
+          <div class="star"><i class="fa-solid fa-regular fa-star"></i></div>
+          <div class="star"><i class="fa-solid fa-regular fa-star"></i></div>
+          <div class="star"><i class="fa-solid fa-regular fa-star"></i></div>
+          <div class="star"><i class="fa-solid fa-regular fa-star"></i></div>
+          <div class="star"><i class="fa-solid fa-regular fa-star"></i></div>
         </div>
-        <p>Vikas</p>
-        </div>
-        </div>
-    </swiper-slide>
-    <swiper-slide>
-        <div class="review">
-        <div class="box-card4">
-        <p class="card-text1 p-2 mb-0">Sold my old phone with ease, and the process was super smooth. Got a great price, quick pickup, and fast payment!</p>
-        <div class="stars mb-1 mt-0 d-flex flex-row">
-          <div class="star">&#9733;</div>
-          <div class="star">&#9733;</div>
-          <div class="star">&#9733;</div>
-          <div class="star">&#9733;</div>
-          <div class="star">&#9733;</div>
-        </div>
-        <p>Sam</p>
+        <p class="name text-center">Vikas</p>
         </div>
         </div>
     </swiper-slide>
     <swiper-slide>
         <div class="review">
-        <div class="box-card4" >
+        <div class="review-card box-card">
         <p class="card-text1 p-2 mb-0">Sold my old phone with ease, and the process was super smooth. Got a great price, quick pickup, and fast payment!</p>
-        <div class="stars mb-1 mt-0 d-flex flex-row">
-          <div class="star" >&#9733;</div>
-          <div class="star" >&#9733;</div>
-          <div class="star" >&#9733;</div>
-          <div class="star" >&#9733;</div>
-          <div class="star" >&#9733;</div>
+        <div class="stars mb-1 mt-0 d-flex flex-row gap-2">
+          <div class="star"><i class="fa-solid fa-regular fa-star"></i></div>
+          <div class="star"><i class="fa-solid fa-regular fa-star"></i></div>
+          <div class="star"><i class="fa-solid fa-regular fa-star"></i></div>
+          <div class="star"><i class="fa-solid fa-regular fa-star"></i></div>
+          <div class="star"><i class="fa-solid fa-regular fa-star"></i></div>
         </div>
-        <p>Ram</p>
+        <p class="name text-center">Sam</p>
         </div>
         </div>
     </swiper-slide>
     <swiper-slide>
         <div class="review">
-        <div class="box-card4" >
+        <div class="review-card box-card" >
         <p class="card-text1 p-2 mb-0">Sold my old phone with ease, and the process was super smooth. Got a great price, quick pickup, and fast payment!</p>
-        <div class="stars mb-1 mt-0 d-flex flex-row">
-          <div class="star" >&#9733;</div>
-          <div class="star" >&#9733;</div>
-          <div class="star" >&#9733;</div>
-          <div class="star" >&#9733;</div>
-          <div class="star" >&#9733;</div>
+        <div class="stars mb-1 mt-0 d-flex flex-row gap-2">
+          <div class="star" ><i class="fa-solid fa-regular fa-star"></i></div>
+          <div class="star" ><i class="fa-solid fa-regular fa-star"></i></div>
+          <div class="star" ><i class="fa-solid fa-regular fa-star"></i></div>
+          <div class="star" ><i class="fa-solid fa-regular fa-star"></i></div>
+          <div class="star" ><i class="fa-solid fa-regular fa-star"></i></div>
         </div>
-        <p>VIKAS</p>
+        <p class="name text-center">Ram</p>
         </div>
         </div>
     </swiper-slide>
     <swiper-slide>
         <div class="review">
-        <div class="box-card4" >
+        <div class="review-card box-card" >
         <p class="card-text1 p-2 mb-0">Sold my old phone with ease, and the process was super smooth. Got a great price, quick pickup, and fast payment!</p>
         <div class="stars mb-1 mt-0 d-flex flex-row">
-          <div class="star" >&#9733;</div>
-          <div class="star" >&#9733;</div>
-          <div class="star" >&#9733;</div>
-          <div class="star" >&#9733;</div>
-          <div class="star" >&#9733;</div>
+          <div class="star" ><i class="fa-solid fa-regular fa-star"></i></div>
+          <div class="star" ><i class="fa-solid fa-regular fa-star"></i></div>
+          <div class="star" ><i class="fa-solid fa-regular fa-star"></i></div>
+          <div class="star" ><i class="fa-solid fa-regular fa-star"></i></div>
+          <div class="star" ><i class="fa-solid fa-regular fa-star"></i></div>
         </div>
-        <p>Sam</p>
+        <p class="name text-center">VIKAS</p>
         </div>
         </div>
     </swiper-slide>
     <swiper-slide>
         <div class="review">
-        <div class="box-card4">
+        <div class="review-card box-card" >
         <p class="card-text1 p-2 mb-0">Sold my old phone with ease, and the process was super smooth. Got a great price, quick pickup, and fast payment!</p>
         <div class="stars mb-1 mt-0 d-flex flex-row">
-          <div class="star" >&#9733;</div>
-          <div class="star" >&#9733;</div>
-          <div class="star" >&#9733;</div>
-          <div class="star" >&#9733;</div>
-          <div class="star" >&#9733;</div>
+          <div class="star" ><i class="fa-solid fa-regular fa-star"></i></div>
+          <div class="star" ><i class="fa-solid fa-regular fa-star"></i></div>
+          <div class="star" ><i class="fa-solid fa-regular fa-star"></i></div>
+          <div class="star" ><i class="fa-solid fa-regular fa-star"></i></div>
+          <div class="star" ><i class="fa-solid fa-regular fa-star"></i></div>
         </div>
-        <p>Ram</p>
+        <p class="name text-center">Sam</p>
         </div>
         </div>
     </swiper-slide>
     <swiper-slide>
         <div class="review">
-        <div class="box-card4">
+        <div class="review-card box-card">
         <p class="card-text1 p-2 mb-0">Sold my old phone with ease, and the process was super smooth. Got a great price, quick pickup, and fast payment!</p>
         <div class="stars mb-1 mt-0 d-flex flex-row">
-          <div class="star" >&#9733;</div>
-          <div class="star" >&#9733;</div>
-          <div class="star" >&#9733;</div>
-          <div class="star" >&#9733;</div>
-          <div class="star" >&#9733;</div>
+          <div class="star" ><i class="fa-solid fa-regular fa-star"></i></div>
+          <div class="star" ><i class="fa-solid fa-regular fa-star"></i></div>
+          <div class="star" ><i class="fa-solid fa-regular fa-star"></i></div>
+          <div class="star" ><i class="fa-solid fa-regular fa-star"></i></div>
+          <div class="star" ><i class="fa-solid fa-regular fa-star"></i></div>
         </div>
-        <p>VIKAS</p>
+        <p class="name text-center">Ram</p>
+        </div>
+        </div>
+    </swiper-slide>
+    <swiper-slide>
+        <div class="review">
+        <div class="review-card box-card">
+        <p class="card-text1 p-2 mb-0">Sold my old phone with ease, and the process was super smooth. Got a great price, quick pickup, and fast payment!</p>
+        <div class="stars mb-1 mt-0 d-flex flex-row">
+          <div class="star" ><i class="fa-solid fa-regular fa-star"></i></div>
+          <div class="star" ><i class="fa-solid fa-regular fa-star"></i></div>
+          <div class="star" ><i class="fa-solid fa-regular fa-star"></i></div>
+          <div class="star" ><i class="fa-solid fa-regular fa-star"></i></div>
+          <div class="star" ><i class="fa-solid fa-regular fa-star"></i></div>
+        </div>
+        <p class="name text-center">VIKAS</p>
         </div>
         </div>
     </swiper-slide>
   </swiper-container>
   </div>
   </div>
+  </div>
   <!--Review-->
   <!--last-->
   <div class=" footer container-fluid">
-    <div class="container py-4 mb-5">
+    <div class="container py-3 mb-5">
       <div class="row">
-        <div class="col-12 col-lg-4 col-xl-4 mt-4 d-flex flex-row">
+        <div class="col-12 col-lg-4 col-xl-4 mt-4">
           <div class="logo">
-            <p style="color: #ffffff; font-size: 50px; margin-top: 19px; height: 200px; font-family: Georgia, 'Times New Roman', Times, serif;">GADDZY</p>
-            <!-- <div class="app">
-              <img src="https://www.pngfind.com/pngs/m/681-6813052_facebook-and-instagram-icon-png-transparent-png.png" style="height: 100px; width: 100px; color: #690087; background-color: #690087;">
-            </div> -->
+            <p style="color: #ffffff; font-size: 50px; margin-top: 19px; font-family: Georgia, 'Times New Roman', Times, serif;">GADDZY</p>
+            <div class="apps d-flex gap-3">
+              <div class="fb text-white"><i class="fa-brands fa-facebook"></i></div>
+              <div class="yt text-white"><i class="fa-brands fa-youtube"></i></div>
+              <div class="ig text-white"><i class="fa-brands fa-instagram"></i></div>
+              <div class="yt text-white"><i class="fa-brands fa-x-twitter"></i></div>
+
+            </div> 
 
           </div>
         </div>
         <div class="col-12 col-lg-2 col-xl-2 mt-4">
-          <p >Quick links</p>
+          <p class="title-link" >Quick links</p>
           <div class="details">
           <p>Home</p>
           <p>About us</p>
@@ -904,16 +598,16 @@
           </div>
         </div>
         <div class="col-12 col-lg-2 col-xl-2 mt-4">
-          <p>Policies</p>
+          <p class="title-policy">Policies</p>
           <div class="details">
           <p>Privacy policy</p>
           <p>Return policy</p>
           <p>Terms & conditions</p>
-          <p>Shipping Policy</p>
+          <p>Shipping Policy</p>  
           </div>
         </div>
-        <div class="col-12 col-lg-2 col-xl-2 mt-4">
-          <p >Contact</p>
+        <div class="contact col-12 col-lg-2 col-xl-2 mt-4">
+          <p class="title-contact" >Contact</p>
           <div class="details">
           <p>1, tirumalai street, venkateshwara nagar, earikarai salai, oragadam, Ambattur, Chennai, Tamil Nadu 600053 </p>
           <p>Phone: +91 7358206525</p>
@@ -927,27 +621,6 @@
     </div>
   </div>
 
-  <script>
-
-    let mybutton = document.getElementById("myBtn");
-
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
-    </script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
